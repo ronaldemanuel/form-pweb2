@@ -1,0 +1,41 @@
+body {
+    background-color: #6495ED;
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: #fff;
+    margin: 50px auto;
+    border-radius: 15px;
+    padding: 20px;
+    
+}
+
+.form-container {
+    height: 200px;
+    width: 400px;
+}
+
+.form-container h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.form-input{
+    margin-bottom: 15px;
+}
+
+.link-container {
+    width: 107px;
+}
+
+.print-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+}
