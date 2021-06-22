@@ -1,0 +1,26 @@
+<?php
+
+session_start();
+
+$name = $_REQUEST["name"];
+$phone = $_REQUEST["phone"];
+
+$_SESSION["name"] = $_REQUEST["name"];
+$_SESSION["phone"] = $_REQUEST["phone"];
+
+?>
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acesso</title>
+</head>
+<body>
+    <a href="print.php">Link de acesso</a>
+</body>
+</html>
+
+
