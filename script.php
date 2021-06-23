@@ -2,9 +2,6 @@
 
 session_start();
 
-$name = $_REQUEST["name"];
-$phone = $_REQUEST["phone"];
-
 $_SESSION["name"] = $_REQUEST["name"];
 $_SESSION["phone"] = $_REQUEST["phone"];
 
